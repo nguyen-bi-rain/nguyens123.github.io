@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <div class="logo-wrapper">
+                    <a href="/" class="logo">
+                        <img src="../image/background/logo.svg" alt="" class="logo-img">
+                    </a>
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link dropdown">Category <i class='bx bx-chevron-down'></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">What's New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Delivery</a>
+                        </li>
+                    </ul>
+                    <div class="search-wrapper">
+                        <input type="text" class="search-input" placeholder="Search Product ">
+                        <i class='bx bx-search search-icon'></i>
+                    </div>
+                </nav>
+
+                <div class="user-actions">
+                    <div class="action">
+                        <i class='bx bx-user action-icon'></i>
+                        <span>Account</span>
+                    </div>
+                    <div class="action">
+                        <i class='bx bx-cart-add action-icon'></i>
+                        <span>Cart</span>
+                    </div>
+                </div>
+                <div class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="banner">
+                <img src="../image/background/bacthang.jpg" loading="lazy" sizes="(max-width: 1239) 100vw, 1240px"
+                    alt="" class="img-banner banner-animate">
+                <img src="../image/background/bg-behide1.png" alt="" class="hero-banner-1">
+                <img src="../image/background/bg-behide2.png" alt="" class="hero-banner-2">
+                <img src="../image/background/bg-behide-3.png" alt="" class="hero-banner-3">
+                <img src="../image/background/bg-behide.png" alt="" class="hero-banner-4">
+            </div>
+            <div class="hero-content">
+                <div class="overlay">
+                    <h1 class="hero-heading animate">
+                        <span>Shopping And </span>
+                        <span>Department Store.</span>
+                    </h1>
+                </div>
+                <div class="overlay">
+                    <p class="hero-des animate">
+                        <span>Shopping is a bit of a relaxing hobby for me, which</span>
+                        <span>is sometimes troubling for the bank  balance.</span>
+                    </p>
+                </div>
+                <div class="overlay">
+                    <button class="hero-btn btn-primary animate">
+                        learn more
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section class="catories">
+            <div class="catorie-container container">
+                <h2 class="catories-heading heading">Shop Our Top Categories</h2>
+                <div class="catorie-list">
+                    <div class="catories-item">
+                        <img src="../image/catories/catories1.png" alt="" class="catorie-img">
+                        <span class="catorie-name">furniture</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories2.png" alt="" class="catorie-img">
+                        <span class="catorie-name">hand bag</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories3.png" alt="" class="catorie-img">
+                        <span class="catorie-name">books</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories6.png" alt="" class="catorie-img">
+                        <span class="catorie-name">tech</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories5.png" alt="" class="catorie-img">
+                        <span class="catorie-name">sneakers</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories4.png" alt="" class="catorie-img">
+                        <span class="catorie-name">travel</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="suggestDeals">
+            <div class="container-suggest container swiper-container">
+                <h3 class="heading suggest-heading">
+                    Todays Best Deals For You!
+                </h3>
+                <div class="suggest-list swiper-wrapper ">
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section class="brand">
+            <div class="brand-container container">
+                <h3 class="heading brand-heading">
+                    Choose By Brand
+                </h3>
+                <div class="brand-list">
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo-2.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo-3.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo-4.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo-5.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo-6.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo-7.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="brand-item">
+                        <img src="../image/brand/brand-logo-8.png" alt="" class="brand-logo">
+                        <div class="brand-content">
+                            <h5 class="brand-name">Staples</h5>
+                            <span class="brand-feature">Delivery with in 24 hours</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sales">
+            <div class="container sale-container">
+                <h3 class="heading">Get Up To 70% Off</h3>
+                <div class="sale-list">
+                    <div class="sale-item">
+                        <div class="sale-content">
+                            <h4 class="sale-save">Save</h4>
+                            <h5 class="sale-price"><span>$</span>100</h5>
+                            <p class="sale-des">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="save-images_wrapper">
+                            <img src="../image/discound/discound-4.png" alt="" class="save-img">
+                        </div>
+                    </div>
+                    <div class="sale-item">
+                        <div class="sale-content" style="background-color: #F9DCDC;">
+                            <h4 class="sale-save">Save</h4>
+                            <h5 class="sale-price" style="color:#961F1F;"><span>$</span>29</h5>
+                            <p class="sale-des">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="save-images_wrapper">
+                            <img src="../image/discound/discound-2.png" alt="" class="save-img">
+                        </div>
+                    </div>
+                    <div class="sale-item">
+                        <div class="sale-content" style="background-color: #F2E4D9;">
+                            <h4 class="sale-save">Save</h4>
+                            <h5 class="sale-price" style="color:#94623C;"><span>$</span>67</h5>
+                            <p class="sale-des">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="save-images_wrapper">
+                            <img src="../image/discound/discound-3.png" alt="" class="save-img">
+                        </div>
+                    </div>
+                    <div class="sale-item">
+                        <div class="sale-content" style="background-color: #D2F7EC;">
+                            <h4 class="sale-save">Save</h4>
+                            <h5 class="sale-price" style="color:#003d29;"><span>$</span>59</h5>
+                            <p class="sale-des">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="save-images_wrapper">
+                            <img src="../image/discound/discound-1.png" alt="" class="save-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TODO: fix class and image item  -->
+        <section class="suggestDeals">
+            <div class="container-suggest container swiper-container">
+                <h3 class="heading suggest-heading">
+                    Todays Best Deals For You!
+                </h3>
+                <div class="suggest-list swiper-wrapper ">
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section class="sale-banner">
+            <div class="sale-banner__container">
+                <div class="sale-banner__content">
+                    <h2 class="sale-banner__heading">Get 5% Cash Back On $200</h2>
+                    <p class="sale-banner__des">Shopping is a bit of a relaxing hobby for me, which is sometimes
+                        troubling for the bank balance.</p>
+                    <div class="overlay">
+                        <button class="btn-primary animate sale-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="product">
+            <div class="product__container container">
+                <h3 class="heading product__heading">
+                    To day best deals for you
+                </h3>
+                <div class="product-type">
+                    <button class="product-type__item btn">Gadgets</button>
+                    <button class="product-type__item btn">Fashion</button>
+                    <button class="product-type__item btn">Toys</button>
+                    <button class="product-type__item btn">Education</button>
+                    <button class="product-type__item btn">beauty</button>
+                    <button class="product-type__item btn">Fitness</button>
+                    <button class="product-type__item btn">Furniture</button>
+                    <button class="product-type__item btn active">Sneakers</button>
+                </div>
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product2.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product3.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product4.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product5.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product6.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product7.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product8.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item__image">
+                            <img src="/image/product9.png" alt="imae" class="product-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="product-item__content">
+                            <div class="product-item__name">
+                                <h4 class="item-name">Laptop sleeve MacBook</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>599<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <div class="product-des">Organic Cotton, fairtrade certified</div>
+                            <div class="product-rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span>(120)</span>
+                            </div>
+                            <button class="btn btn-secondary product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cash ">
+            <div class="cash-container">
+                <div class="cash-content">
+                    <h4 class="cash-heading">get 5% cash back</h4>
+                    <p class="cash-text">on Shopcart.com</p>
+                    <button class="btn btn-primary">Learn more</button>
+                </div>
+                <div class="cash-wrapper">
+                    <div class="cash-card">
+                        <div class="cash-img">
+                            <img src="/image/card/card.png" alt="card">
+                        </div>
+                        <div class="cash-img1">
+                            <img src="/image/card/card1.png" alt="card">
+                        </div>
+                        <div class="cash-img2">
+                            <img src="/image/card/card2.png" alt="card">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bestSell">
+            <div class="bestSell-container container swiper-container">
+                <h3 class="bestSell-heading heading">Most Selling Products</h3>
+                <div class="suggest-list swiper-wrapper">
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product4.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product7.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product11.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product14.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item swiper-slide">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span
+                                        class="suggest-item_product-priceCost">$</span>239<span
+                                        class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section class="trending">
+            <div class="trending-container container">
+                <h3 class="trending-heading heading">Trending products for you!</h3>
+
+                <div class="trending-product__list">
+                    <div class="trending-product__item">
+                        <div class="trending-product__item-img">
+                            <img src="/image/trending/trend2.png" alt="product1">
+                        </div>
+                        <div class="treding-product__item-content">
+                            <h4 class="treding-product__item-content-name">
+                                Furniture Village
+                            </h4>
+                            <p class="treding-product__item-content-dilivery">
+                                Delivery with in 24 hours
+                            </p>
+                            <button class="trending-product__btn btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="trending-product__item">
+                        <div class="trending-product__item-img">
+                            <img src="/image/trending/trend1.png" alt="product1">
+                        </div>
+                        <div class="treding-product__item-content">
+                            <h4 class="treding-product__item-content-name">
+                                Fashion World
+                            </h4>
+                            <p class="treding-product__item-content-dilivery">
+                                Delivery with in 24 hours
+                            </p>
+                            <button class="trending-product__btn btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="store">
+            <div class="store-container container">
+                <h3 class="store-heading heading">
+                    best selling store
+                </h3>
+                <div class="strore-list">
+                    <div class="store-item">
+                        <div class="store-item__img">
+                            <img src="/image/selling/selling1.png" alt="" class="store-item_image">
+                        </div>
+                        <div class="store-content">
+                            <img src="/image/brand/brand-logo-2.png" alt="" class="store-item__brand">
+
+                            <h4 class="store-name">Staples</h4>
+                            <p class="store-kind">Bag • perfume</p>
+                            <span class="store-transit ">
+                                <img src="/image/tag.png" alt="">
+                                <p>Delivery with in 24 hours</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="store-item">
+                        <div class="store-item__img">
+                            <img src="/image/selling/selling2.png" alt="" class="store-item_image">
+                        </div>
+                        <div class="store-content">
+                            <img src="/image/brand/brand-logo-3.png" alt="" class="store-item__brand">
+
+                            <h4 class="store-name">Staples</h4>
+                            <p class="store-kind">Bag • perfume</p>
+                            <span class="store-transit ">
+                                <img src="/image/tag.png" alt="">
+                                <p>Delivery with in 24 hours</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="store-item">
+                        <div class="store-item__img">
+                            <img src="/image/selling/selling3.png" alt="" class="store-item_image">
+
+                        </div>
+                        <div class="store-content">
+                            <img src="/image/brand/brand-logo-4.png" alt="" class="store-item__brand">
+                            <h4 class="store-name">Staples</h4>
+                            <p class="store-kind">Bag • perfume</p>
+                            <span class="store-transit ">
+                                <img src="/image/tag.png" alt="">
+                                <p>Delivery with in 24 hours</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="store-item">
+                        <div class="store-item__img">
+                            <img src="/image/selling/selling4.png" alt="" class="store-item_image">
+                        </div>
+                        <div class="store-content">
+                            <img src="/image/brand/brand-logo-5.png" alt="" class="store-item__brand">
+
+                            <h4 class="store-name">Staples</h4>
+                            <p class="store-kind">Bag • perfume</p>
+                            <span class="store-transit ">
+                                <img src="/image/tag.png" alt="">
+                                <p>Delivery with in 24 hours</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="services-container container">
+                <h3 class="services-heading heading">services to help you shop</h3>
+                <div class="services-list">
+                    <div class="services-item">
+                        <div class="services-item__content">
+                            <h5 class="services-item__name">Frequently Asked Questions</h5>
+                            <p class="services-item__des">Updates on safe Shopping in our Stores</p>
+                        </div>
+                        <div class="services-item__image">
+                            <img src="/image/services/services2.png" alt="" class="services-item__img">
+                        </div>
+                    </div>
+                    <div class="services-item">
+                        <div class="services-item__content">
+                            <h5 class="services-item__name">Online Payment Process</h5>
+                            <p class="services-item__des">Updates on safe Shopping in our Stores</p>
+                        </div>
+                        <div class="services-item__image">
+                            <img src="/image/services/services1.png" alt="" class="services-item__img">
+                        </div>
+                    </div>
+                    <div class="services-item">
+                        <div class="services-item__content">
+                            <h5 class="services-item__name">Home Delivery Options
+                            </h5>
+                            <p class="services-item__des">Updates on safe Shopping in our Stores</p>
+                        </div>
+                        <div class="services-item__image">
+                            <img src="/image/services/service3.png" alt="" class="services-item__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-container">
+                    <div class="footer-info">
+                        <div class="footer-info__header">
+                            <img src="/image/background/logo.svg" alt="" class="footer-info-img">
+                            <p class="footer-info__des">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. Velit officia consequat duis enim velit mollit.</p>
+                        </div>
+
+                        <div class="footer-info__pay">
+                            <h5 class="footer-info__payname">
+                                Accepted Payments
+                            </h5>
+                            <div class="footer-info__pay-list">
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/stripe.png" alt="">
+                                </div>
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/visa.png" alt="">
+                                </div>
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/circle.png" alt="">
+                                </div>
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/amazon.png" alt="">
+                                </div>
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/klar.png" alt="">
+                                </div>
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/paypal.png" alt="">
+                                </div>
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/Apple.png" alt="">
+                                </div>
+                                <div class="footer-info__pay-item">
+                                    <img src="/image/vendor/Gplay.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="footer-services">
+                        <h2 class="footer-services__name">
+                            department
+                        </h2>
+                        <ul>
+                            <li>fashion</li>
+                            <li>education product</li>
+                            <li>frozen food</li>
+                            <li>beverages</li>
+                            <li>organic grocery</li>
+                            <li>office supplies</li>
+                            <li>beauty products</li>
+                            <li>books</li>
+                            <li>electronics & Gadget</li>
+                            <li>travel Accessories</li>
+                            <li>Fitness</li>
+                            <li>Sneakers</li>
+                            <li>Toys</li>
+                            <li>Furniture</li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-services">
+                        <h2 class="footer-services__name">
+                            about us
+                        </h2>
+                        <ul>
+                            <li>About Shopcart </li>
+                            <li>Careers</li>
+                            <li>News & Blog</li>
+                            <li>Help</li>
+                            <li>Press Center</li>
+                            <li>Shop By Location</li>
+                            <li>Shopcart Brands</li>
+                            <li>Affiliate & Partners</li>
+                            <li>Ideas & Guides</li>
+
+                        </ul>
+                    </nav>
+                    <nav class="footer-services">
+                        <h2 class="footer-services__name">
+                            services
+                        </h2>
+                        <ul>
+                            <li>Gift Card</li>
+                            <li>Mobile App</li>
+                            <li>Shipping & Delivery</li>
+                            <li>Order Pickup</li>
+                            <li>Account Signup</li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-services">
+                        <h2 class="footer-services__name">
+                            help
+                        </h2>
+                        <ul>
+                            <li>Shopcart Help</li>
+                            <li>Returns</li>
+                            <li>Track Orders</li>
+                            <li>Contact Us</li>
+                            <li>Feedback</li>
+                            <li>Security & Fraud</li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="footer-copyright__list">
+                <div class="footer-copyright__item">
+                    <div>
+                        <i class='bx bx-briefcase-alt-2'></i>
+                        <span>Become seller</span>
+                    </div>
+                    <div>
+                        <i class='bx bx-gift'></i>
+                        <span>gift cards</span>
+
+                    </div>
+                    <div>
+                        <i class='bx bx-help-circle'></i>
+                        <span>help center</span>
+                    </div>
+                </div>
+                <div class="footer-copyright__item">
+                    <div>Terms of Service</div>
+                    <div>Privacy & Policy</div>
+                </div>
+                <div class="footer-copyright__item">
+                    <span>All Right reserved by Musemind | 2022</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
